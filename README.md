@@ -22,6 +22,28 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 
 Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
-## Further help
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+## Requirements
+
+At this moment i am using :
+
+1- Angular 8 (require NodeJs 12, angular cli 8)
+1- Angular Material and hammerjs
+1- Abgular Flexlayout
+1- Bootstrap 4.3.2
+
+To install them open your terminal and enter these commands :
+ 
+```bash
+npm install --save @angular/material @angular/cdk @angular/animations @angular/flex-layout bootstrap jquery popper.js hammerjs
+
+```
+or one by one
+
+```bash
+npm install -g @angular-cli
+npm install --save @angular/material @angular/cdk @angular/animations hammerjs
+npm install --save @angular/flex-layout
+npm install --save bootstrap jquery popper.js 
+
+```
